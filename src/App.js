@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 // import Resume from "./pages/Resume";
 // import Footer from "./components/Footer/index";
 // import Header from "./components/Header/index";
@@ -16,11 +16,11 @@ function App() {
       <div>
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/React" component={Home} />
+          <Route exact path="/Home" component={Home} />
           <Route exact path="/About" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           {/* <Route exact path="/resume" component={Resume} /> */}
-          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/contact" component={Contact} />
        
       </div>
     </Router>

@@ -1,13 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, } from 'react-bootstrap';
-import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Footer.css"
 
-function NavBar(){
+function Footer() {
     return (
-        <Navbar bg="dark" expand="lg">
-            
-         </Navbar>
+        <div class="d-flex flex-column">
+            <footer class="footer">
+                <div>
+                    <span>Created 2021</span>
+                </div>
+            </footer>
+        </div>
     )
 }
-export default NavBar;
+export default Footer;

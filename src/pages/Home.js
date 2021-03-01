@@ -1,20 +1,36 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "../components/Navbar"
+import { Image, Container, Row } from 'react-bootstrap';
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
+
+import "./Style.css";
 
 
 function Home() {
     return (
         <div>
             <Navbar />
+            <Container style = {{ paddingBottom: 100}}>
+                <Row >
+                <h1 >Timothy's Page</h1>
+                </Row>
+            
+            
+            <div class="row">
+                <div class="col-lg">
+                    <Image src="../img/placeholder.jpg" rounded />
+                </div>
 
-            Timothy's Page
+                <div class="col-lg">
+                    This is where the about me goes
+                </div>
 
-
-      
-         <div className="fixed-bottom">  
-         <Footer><span><p>Footer</p></span></Footer>
-        </div>
+            </div>
+            <div className="fixed-bottom">
+                <Footer />
+            </div>
+            </Container>
+            
         </div>
     );
 }

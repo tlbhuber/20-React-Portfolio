@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image, Container, Row } from 'react-bootstrap';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
+import Self from "../img/placeholder.jpg"
 
 import "./Style.css";
 
@@ -16,12 +17,12 @@ function Home() {
                 </Row>
             
             
-            <div class="row">
-                <div class="col-lg">
-                    <Image src="../img/placeholder.jpg" rounded />
+            <div className="row">
+                <div className="col-lg">
+                    <Image src= {Self}/>
                 </div>
 
-                <div class="col-lg">
+                <div className="col-lg">
                     This is where the about me goes
                 </div>
 

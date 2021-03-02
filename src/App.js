@@ -1,14 +1,10 @@
-import React from "react";
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./pages/Home";
-import About from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact";
-// import Resume from "./pages/Resume";
-// import Footer from "./components/Footer/index";
-// import Header from "./components/Header/index";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import "./App.css";
 
 function App() {
   return (
@@ -17,7 +13,6 @@ function App() {
 
           <Route exact path="/" component={Home} />
           <Route exact path="/Home" component={Home} />
-          <Route exact path="/About" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           {/* <Route exact path="/resume" component={Resume} /> */}
           <Route exact path="/contact" component={Contact} />

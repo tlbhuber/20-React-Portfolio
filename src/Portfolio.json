@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Herbizzle",
+        "description": "Medicinal and Recreational Marijuana Strain Tracker",
+        "tech": "JQuery, Node, MySQL",
+        "href": "https://fast-tundra-43886.herokuapp.com/",
+        "img": "../img/Herbizzle-Card.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "BookBack",
+        "description": "Search for your favorite Books using the Google Books API",
+        "tech": "React, Node, Express and MongoDB",
+        "href": "",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Employee Directory",
+        "description": "React Employee Directory",
+        "tech":"React, MongoDB",
+        "href": "",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Weather Dash",
+        "description": "JQuery Weather dashboard",
+        "tech": "JQuery, OpenWeather API",
+        "href": "",
+        "img": ""
+    }
+]

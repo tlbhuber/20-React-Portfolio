@@ -1,3 +1,7 @@
-.navLink {
-    padding: 10px 15px
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.navbar-brand {
+padding-top: 12px;
+font-family: 'Acme', sans-serif !important;
+text-transform: uppercase;
 }

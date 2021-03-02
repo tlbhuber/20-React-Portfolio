@@ -1,21 +1,48 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, } from 'react-bootstrap';
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
 
-function NavBar(){
-    return (
-        <Navbar bg="dark" expand="lg">
-        {/* <Navbar href="#home" style ={{color: "white"}}>Timothy Balascak-Huber</Navbar> */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Link to="/#" style ={{color: "white"}} className = "navLink"> Home </Link>
-            <Link to="/portfolio" style ={{color: "white"}} className = "navLink">Portfolio</Link>
-            <Link to="/contact" style ={{color: "white"}} className = "navLink">Contact Me</Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    )
+// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Link className="navbar-brand" to="/">
+        Timothy Balasack-Huber
+      </Link>
+      <div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/portfolio"
+              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+             Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
-export default NavBar;
+
+export default Navbar;

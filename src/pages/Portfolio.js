@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Container, Row, Col, Card, Button} from "react-bootstrap"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import PortfolioCard from "../components/PortfolioCard"
 import projects from "../Portfolio.json"
 
@@ -19,11 +20,12 @@ class Portfolio extends Component{
                 name={project.name}
                 description={project.description}
                 tech={project.tech}
-                link={project.href}
+                link={project.link}
                 img={project.img}
                 />
             ))}
             </Container>
+
             </div>
         )
     }

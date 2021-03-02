@@ -4,31 +4,47 @@
         "name": "Herbizzle",
         "description": "Medicinal and Recreational Marijuana Strain Tracker",
         "tech": "JQuery, Node, MySQL",
-        "href": "https://fast-tundra-43886.herokuapp.com/",
-        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Herbizzle-Card.jpeg"
+        "link": "https://fast-tundra-43886.herokuapp.com/",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Herbizzle-Card.jpeg?raw=true"
     },
     {
         "id": 2,
         "name": "BookBack",
         "description": "Search for your favorite Books using the Google Books API",
-        "tech": "React, Node, Express and MongoDB",
-        "href": "",
-        "img": ""
+        "tech": "React, Node, Express, MongoDB, and Google Books API ",
+        "link": "https://blooming-crag-88945.herokuapp.com/",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Books.jpg?raw=true"
     },
     {
         "id": 3,
-        "name": "Employee Directory",
-        "description": "React Employee Directory",
-        "tech":"React, MongoDB",
-        "href": "",
-        "img": ""
+        "name": "NoteTaker",
+        "description": "Write, save, and delete notes.",
+        "tech":"Express, Node",
+        "link": "https://quiet-plains-69839.herokuapp.com/",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/NoteTaker-Card.jpg?raw=true"
     },
     {
         "id": 4,
-        "name": "Weather Dash",
-        "description": "JQuery Weather dashboard",
-        "tech": "JQuery, OpenWeather API",
-        "href": "",
-        "img": ""
+        "name": "MarkDown",
+        "description": "A Professional README Generator via Node.js",
+        "tech": "Node",
+        "link": "https://github.com/tlbhuber/11-ReadMeGen",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Markdown-Card.jpg?raw=true"
+    }, 
+    {
+        "id": 5,
+        "name": "Budget Tracker",
+        "description": "Budget Tracker application to allow for offline access and functionality.",
+        "tech": "JS, IndexedDB, Service Workers",
+        "link": "https://blooming-garden-84622.herokuapp.com/",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Budget-Card.jpg?raw=true"
+    }, 
+    {
+        "id": 6,
+        "name": "WorkoutWzrd",
+        "description": "Budget Tracker application to allow for offline access and functionality.",
+        "tech": "Express, MongoDb, Mongoose.js",
+        "link": "https://evening-inlet-31199.herokuapp.com/",
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Workout-Card.jpg?raw=true"
     }
 ]

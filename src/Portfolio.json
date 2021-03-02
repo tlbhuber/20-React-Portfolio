@@ -5,7 +5,7 @@
         "description": "Medicinal and Recreational Marijuana Strain Tracker",
         "tech": "JQuery, Node, MySQL",
         "href": "https://fast-tundra-43886.herokuapp.com/",
-        "img": "../img/Herbizzle-Card.jpeg"
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Herbizzle-Card.jpeg"
     },
     {
         "id": 2,

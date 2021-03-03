@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Container, Row, Col, Card, Button, Image } from "react-bootstrap"
 import Photo from "../img/placeholder.jpg"
+import Picture from "../img/self.jpeg"
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { FaRegEnvelope } from "react-icons/fa";
 
@@ -16,12 +17,11 @@ function Self() {
             <Row >
                 <Col classname = "photo" >
                     <Row >
-                    <Image src= {Photo} style = {{
+                    <Image src= {Picture} style = {{
                         paddingTop: "5%",
-                        height: "40%",
-                        width: "40%",
+                        height: "30%",
+                        width: "30%",
                         textAlign: "center",
-                        display: "block",
                         justifyContent: "center",
                         alignItems: "center",
                         margin: "auto",
@@ -41,7 +41,7 @@ function Self() {
                     </Row>
                 </Col>
                 <Col style = {{
-                    paddingBottom: "5%"
+                    paddingBottom: "11%"
                 }}>
                     <h1 className="responsive"style = {{
                         paddingTop: "5%",

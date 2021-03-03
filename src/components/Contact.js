@@ -29,7 +29,9 @@ function Contact() {
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label><BiMessageDetail/> Message</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" placeholder="This feature is currently disabled.  
+                        If you would like to reach out to me, please click on the email link on the home page.  
+                        I look forward to hearing from you.  Thank you. " rows={3} />
                     </Form.Group>
                     <Button variant="success" type="submit">
                         Submit

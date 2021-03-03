@@ -1,18 +1,23 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image, Container, Row } from 'react-bootstrap';
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
-import Self from "../img/placeholder.jpg"
+import Self from "../components/Self"
+import About from "../components/About"
 
-import "./Style.css";
+// import "./Style.css";
 
 
 function Home() {
     return (
-        <div>
+        <div style = {{
+            paddingBottom: 50
+        }}>
             <Navbar />
-            <Container style = {{ paddingBottom: 100}}>
-                <Row >
+            <Self/>
+            <Container >
+             
+              
+              
+                {/* <Row >
                 <h1 >Timothy's Page</h1>
                 </Row>
             
@@ -26,10 +31,12 @@ function Home() {
                     This is where the about me goes
                 </div>
 
-            </div>
-            <div className="fixed-bottom">
-                <Footer />
-            </div>
+            </div> */}
+
+            </Container>
+            <Container>
+            <hr></hr>
+              <About/>
             </Container>
             
         </div>

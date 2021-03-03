@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {Container, Row, Col, Card, Button} from "react-bootstrap"
 import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 import PortfolioCard from "../components/PortfolioCard"
 import projects from "../Portfolio.json"
 

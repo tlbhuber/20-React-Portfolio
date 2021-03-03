@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from "../components/Contact";
 // import { Image } from 'react-bootstrap';
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
 
 import "./Style.css";
 
@@ -10,11 +10,8 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <h1>Contact Me</h1>
+            <Contact />
 
-            <div className="fixed-bottom">
-                <Footer />
-            </div>
         </div>
     );
 }

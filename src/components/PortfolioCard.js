@@ -1,11 +1,14 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap"
+import { Card, Button } from "react-bootstrap"
 import "./PortfolioCard.css"
 
 function PortfolioCard(props) {
     return (  
         <div class="portfolio">
                     <Card>
-                    <Card.Img variant="top" src={props.img} />
+                    <Card.Img variant="top" src={props.img}
+                    
+                    
+                    />
                     <Card.Body style={{ 
                                 backgroundColor: "black",
                                 color: "white",

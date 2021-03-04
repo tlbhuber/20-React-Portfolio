@@ -1,4 +1,4 @@
-import { Row, Card, CardDeck, Container, Button } from "react-bootstrap"
+import { Row, Card, CardDeck } from "react-bootstrap"
 
 
 function About() {
@@ -46,87 +46,8 @@ function About() {
       }}>
 
         
-        {/* <CardGroup>
-          <Card style={{
-            background: "#3CABA8",
-            textlign: "center"
-          }}>
-            <Card.Body >
-              <Card.Title>Front End</Card.Title>
-              <Card.Text className = "cardbody">
-                <ul>
-                  <li></li>
-                </ul>
-            </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{
-            background: "#3CABA8"
-          }}>
-            <Card.Body>
-              <Card.Title>Back End</Card.Title>
-              <Card.Text>
-                <ul>
-                  <li></li>
-                </ul>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-        </CardGroup> */}
-            <Container style ={{
-              paddingLeft: "30%",
-              paddingRight: "30%"
-            }}>
-              <Card>
-                <Card.Header style= {{
-                    backgroundColor: "darkgrey",
-                    color: "black",
-                    textAlign: "center"
-                  }}>
-                    <h2>Current Skills</h2>
-                    </Card.Header>
-                  <Card.Body style= {{
-                    backgroundColor: "#7A7DEC",
-                    color: "white"
-                  }}>
-                     <Card.Title>Front End</Card.Title>
-                 <Card.Text>
-                      <ul style ={{
-                        listStyleType: "none",
-                        textAlign: "left"
-                      }}>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Git</li>
-                        <li>Javascript</li>
-                        <li>JQuery</li>
-                        <li>React</li>
-                      </ul>
-                 </Card.Text>
-                 
-                  </Card.Body>
-                  <Card.Body style= {{
-                    backgroundColor: "#8A8CE3",
-                    color: "white"
-                  }}>
-                     <Card.Title>Back End</Card.Title>
-                 <Card.Text>
-                 <ul style ={{
-                        listStyleType: "none",
-                        textAlign: "left"
-                      }}>
-                        <li>MySql</li>
-                        <li>Node</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                        <li>Bash</li>
-                      </ul>
-                 </Card.Text>
-                 
-                  </Card.Body>
-            </Card>
-            </Container>
+        
+            
       </Row>
     </>
 

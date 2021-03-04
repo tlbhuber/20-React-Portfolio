@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom"
-import { Container, Row, Col, Card, Button, Image } from "react-bootstrap"
-import Photo from "../img/placeholder.jpg"
+import { Container, Row, Col, Image } from "react-bootstrap"
 import Picture from "../img/self.jpeg"
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { FaRegEnvelope } from "react-icons/fa";
@@ -25,6 +23,7 @@ function Self() {
                         justifyContent: "center",
                         alignItems: "center",
                         margin: "auto",
+                        borderRadius: "50%" 
                     }} fluid/>
                     </Row>
                     <br></br>
@@ -33,8 +32,8 @@ function Self() {
                             textAlign: "center"
                         }}>
 
-                        <a href="https://www.linkedin.com/in/timothy-balascak-huber-b59b921ba/" target="_blank" className="fa-icons"><SiLinkedin /></a>
-                        <a href="https://github.com/tlbhuber" target="_blank" alt="Github" className="fa-icons"><SiGithub /></a>
+                        <a href="https://www.linkedin.com/in/timothy-balascak-huber-b59b921ba/" target="_blank" rel="noreferrer" className="fa-icons"><SiLinkedin /></a>
+                        <a href="https://github.com/tlbhuber" target="_blank" rel="noreferrer" alt="Github" className="fa-icons"><SiGithub /></a>
                         <a href="mailto:tlbalascak.huber@gmail.com" className="fa-icons"><FaRegEnvelope /></a>
                         
                         </Col>

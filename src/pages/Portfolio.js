@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import {Container, Row, Col, Card, Button} from "react-bootstrap"
+import {Container } from "react-bootstrap"
 import Navbar from "../components/Navbar"
 import PortfolioCard from "../components/PortfolioCard"
 import projects from "../Portfolio.json"
+import "./Portfolio.css"
 
 class Portfolio extends Component{
     state = {
@@ -11,7 +12,7 @@ class Portfolio extends Component{
 
     render() {
         return(
-            <div>
+            <div className = "body">
             <Navbar />
             <Container>
             {this.state.projects.map(project => (

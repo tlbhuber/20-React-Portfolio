@@ -1,11 +1,11 @@
 [
     {
-        "id": 2,
+        "id": 1,
         "name": "Axolotl",
         "description": "You and your friends will never have to figure out what to do again! ",
         "tech": "JQuery, Express, Node, Heroku",
         "link": "https://axolotl-search.herokuapp.com/",
-        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/Herbizzle-Card.jpeg?raw=true"
+        "img": "https://github.com/tlbhuber/20-React-Portfolio/blob/main/src/img/axolotl.gif?raw=true"
     },
     {      
         "id": 2,
